@@ -1,0 +1,80 @@
+aid: greylock.com
+name: Greylock Partners
+description: Greylock Partners is one of the oldest and best-known venture capital firms in the United
+  States, founded in 1965 in Cambridge, Massachusetts and headquartered in Menlo Park, California. Greylock
+  is an early-stage-focused firm that partners with founders at the pre-seed, seed, and Series A stages,
+  deploying the majority of its capital as a first check and continuing to back companies through Series
+  B and beyond. The firm reports over $3.5 billion in committed capital under management. Greylock invests
+  across enterprise and consumer software with an explicitly AI-first thesis, concentrating on applications,
+  infrastructure, cybersecurity, fintech, consumer, and deep tech. Its portfolio and alumni network includes
+  category-defining companies such as LinkedIn, Facebook, Airbnb, Workday, Palo Alto Networks, Cloudera,
+  Coinbase, Figma, Discord, and Anthropic. Partners include Reid Hoffman, Asheem Chandna, Saam Motamedi,
+  Jerry Chen, David Sze, and Mike Duboe.
+image: https://cdn.sanity.io/images/uz672vkd/production/3289769f5f58045123dd9132f64e768dda4e74aa-168x32.svg
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+- Venture Capital
+- Seed
+- Series A
+- Artificial Intelligence
+- Enterprise Software
+- Cybersecurity
+- Fintech
+- Infrastructure
+- Consumer
+- Silicon Valley
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+- type: Website
+  url: https://greylock.com/
+- type: Portfolio
+  url: https://greylock.com/portfolio/
+- type: Portfolio
+  url: portfolio/greylock-portfolio.yml
+- type: Team
+  url: https://greylock.com/team/
+- type: Team
+  url: team/greylock-team.yml
+- type: InvestmentThesis
+  url: https://greylock.com/firm/
+- type: Blog
+  url: https://greylock.com/blog/
+- type: News
+  url: https://greylock.com/edge/
+- type: Podcast
+  url: https://greylock.com/greymatter/
+- type: Jobs
+  url: https://greylock.com/jobs/
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/greylock
+- type: LinkedIn
+  url: https://www.linkedin.com/company/greylock-partners/
+- type: Twitter
+  url: https://x.com/GreylockVC
+- type: Features
+  data:
+  - 'Stage: Pre-seed, Seed, Series A (first-check, early-stage focus; follows on through Series B+)'
+  - 'Sectors: applications, infrastructure, cybersecurity, fintech, consumer, deep tech'
+  - 'Geography: United States (Silicon Valley / Menlo Park)'
+  - 'AUM: over $3.5B committed capital (self-reported)'
+  - 'Founded: 1965 (Cambridge, MA)'
+  - 'HQ: Menlo Park, CA'
+  - 'Thesis: AI-first; backs category-defining teams'
+  - 'Portfolio: 158 companies profiled from greylock.com/portfolio'
+  sources:
+  - https://greylock.com/firm/
+  - https://en.wikipedia.org/wiki/Greylock_Partners
+  - https://www.crunchbase.com/organization/greylock
+  updated: '2026-07-17'
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+  url: https://apievangelist.com
+- FN: APIs.json
+  url: http://apisjson.org
+- FN: Greylock Partners
+  url: https://greylock.com/
