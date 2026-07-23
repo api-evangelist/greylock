@@ -10,6 +10,17 @@ description: Greylock Partners is one of the oldest and best-known venture capit
   category-defining companies such as LinkedIn, Facebook, Airbnb, Workday, Palo Alto Networks, Cloudera,
   Coinbase, Figma, Discord, and Anthropic. Partners include Reid Hoffman, Asheem Chandna, Saam Motamedi,
   Jerry Chen, David Sze, and Mike Duboe.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://cdn.sanity.io/images/uz672vkd/production/3289769f5f58045123dd9132f64e768dda4e74aa-168x32.svg
 x-type: venture-capital
 x-category: Venture Capital
