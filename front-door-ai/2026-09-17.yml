@@ -1,0 +1,26 @@
+# Front Door AI Index — greylock — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: greylock
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: greylock.com
+  final_host: greylock.com
+  ownership: own
+  owner: greylock
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 2
+  host_score: 2
+  density: 8.58
+  words: 233
+  tiers:
+    agentic: 0
+    core: 1
+    model: 1
+  ambiguous: 0
+  top_terms:
+    AI: 1
+    ChatGPT: 1
