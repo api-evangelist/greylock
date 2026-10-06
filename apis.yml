@@ -46,10 +46,12 @@ tags:
 - Infrastructure
 - Silicon Valley
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+- url: https://greylock.com/blog/feed.xml
+  type: BlogRSS
 - type: Website
   url: https://greylock.com/
 - type: Portfolio
