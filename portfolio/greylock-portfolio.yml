@@ -2,11 +2,11 @@ generated: '2026-07-17'
 method: searched
 source: https://greylock.com/portfolio/
 summary:
-  portfolio_total: 158
-  in_network: 158
+  portfolio_total: 152
+  in_network: 146
   api_providers: 61
-  missing: 0
-  stubs_created: 0
+  missing: 6
+  stubs_created: 13
 companies:
 - name: 0x Labs
   url: https://0x.org
@@ -38,9 +38,9 @@ companies:
   stage: seed
   status: active
   source: https://greylock.com/portfolio/
-  slug: abnormal-security
+  slug: abnormal
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Adept
   url: http://www.adept.ai
@@ -84,7 +84,7 @@ companies:
   status: active
   source: https://greylock.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
   slug: airops
   matched_by: domain
@@ -249,7 +249,7 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: true
-  slug: awake-security-arista-networks
+  slug: awake
   matched_by: domain
 - name: Axiamatic
   url: https://www.axiamatic.com/
@@ -293,9 +293,9 @@ companies:
   stage: series-d
   status: ipo
   source: https://greylock.com/portfolio/
-  slug: blend-labs
+  slug: blend-mortgage
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Blockaid
   url: https://blockaid.io
@@ -387,7 +387,7 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: false
-  slug: chia
+  slug: chia-network
   matched_by: domain
 - name: Chronosphere
   url: https://chronosphere.io/
@@ -407,10 +407,10 @@ companies:
   stage: series-a
   status: active
   source: https://greylock.com/portfolio/
-  slug: cleo
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: cleo
+  suggested_slug: hicleo-com
 - name: Clockwise
   url: https://getclockwise.com/
   description: Time management for teams.
@@ -451,10 +451,10 @@ companies:
   stage: seed
   status: active
   source: https://greylock.com/portfolio/
-  slug: coffee
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: coffee
+  suggested_slug: coffee-ai
 - name: Cogent
   url: https://www.cogent.com/
   description: AI workforce for vulnerability management.
@@ -554,11 +554,11 @@ companies:
   stage: series-a
   status: acquired
   source: https://greylock.com/portfolio/
-  in_network: true
-  is_api_provider: true
+  in_network: false
+  is_api_provider: false
   stub_created: false
-  slug: delphix
-  matched_by: name-slug
+  x-name-collision: delphix
+  suggested_slug: altareturn-com
 - name: Demisto
   url: http://demisto.com
   description: Security orchestration, automation, and response (SOAR) platform.
@@ -604,17 +604,6 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: domain
-- name: Dropbox
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: The one place to keep life organized and keep work moving.
-  sector: applications
-  stage: series-b
-  status: ipo
-  source: https://greylock.com/portfolio/
-  slug: dropbox
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
 - name: Entrepreneur First
   url: https://www.joinef.com/
   description: Turning exceptional individuals into exceptional founders.
@@ -648,7 +637,7 @@ companies:
   source: https://greylock.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: fable-security
+  slug: fable
   matched_by: domain
 - name: Facebook
   url: https://www.facebook.com/
@@ -723,7 +712,7 @@ companies:
   stage: series-a
   status: active
   source: https://greylock.com/portfolio/
-  slug: classy-org
+  slug: gofundme
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -745,10 +734,10 @@ companies:
   stage: series-a
   status: active
   source: https://greylock.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: handshake
-  matched_by: name-slug
+  x-name-collision: handshake
+  suggested_slug: handshake-org
 - name: Highstock
   url: https://www.highstock.com/
   description: Your partner in global distribution.
@@ -760,17 +749,6 @@ companies:
   is_api_provider: false
   slug: highstock
   matched_by: domain
-- name: Houseparty
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: Face to face social network.
-  sector: consumer
-  stage: series-a
-  status: acquired
-  source: https://greylock.com/portfolio/
-  in_network: true
-  is_api_provider: false
-  slug: houseparty
-  matched_by: name-slug
 - name: Included Health
   url: https://includedhealth.com/
   description: Healthcare outcomes management platform.
@@ -943,7 +921,7 @@ companies:
   stage: series-a
   status: active
   source: https://greylock.com/portfolio/
-  slug: magiceden
+  slug: magic-eden
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -965,10 +943,10 @@ companies:
   stage: series-a
   status: acquired
   source: https://greylock.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mammoth-media
-  matched_by: name-slug
+  x-name-collision: mammoth-media
+  suggested_slug: mammoth-la
 - name: Mandolin
   url: https://www.mandolin.com/
   description: The leading AI automation platform for specialty drug access.
@@ -1023,7 +1001,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: musically
-  matched_by: domain
+  matched_by: name-slug
 - name: Natoma
   url: https://natoma.ai/
   description: A platform to secure, automate, and govern Non-Human Identities.
@@ -1046,17 +1024,6 @@ companies:
   is_api_provider: false
   slug: nauto
   matched_by: domain
-- name: Neeva
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: "Neeva is search re-imagined â\x80\x94 always ad-free, private, and deeply personal."
-  sector: applications
-  stage: series-a
-  status: acquired
-  source: https://greylock.com/portfolio/
-  in_network: true
-  is_api_provider: false
-  slug: neeva
-  matched_by: name-slug
 - name: Netic
   url: https://www.netic.ai/
   description: The AI revenue engine for essential service industries.
@@ -1229,7 +1196,7 @@ companies:
   stage: seed
   status: ipo
   source: https://greylock.com/portfolio/
-  slug: demisto
+  slug: cyberark
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1383,9 +1350,9 @@ companies:
   stage: series-a
   status: acquired
   source: https://greylock.com/portfolio/
-  slug: redhat
+  slug: ansible-automation-platform
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Redfin
   url: https://www.redfin.com/
@@ -1442,28 +1409,6 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Rhumbix
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: Mobile tools designed for the blue-collar workforce.
-  sector: applications
-  stage: series-a
-  status: acquired
-  source: https://greylock.com/portfolio/
-  in_network: true
-  is_api_provider: true
-  slug: rhumbix
-  matched_by: name-slug
-- name: Roblox
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: Next generation entertainment platform.
-  sector: consumer
-  stage: growth
-  status: ipo
-  source: https://greylock.com/portfolio/
-  slug: roblox
-  in_network: true
-  is_api_provider: false
-  matched_by: name-slug
 - name: Rockset
   url: https://rockset.com/
   description: Search and analytics for the AI era.
@@ -1504,7 +1449,7 @@ companies:
   stage: series-b
   status: active
   source: https://greylock.com/portfolio/
-  slug: shortcut
+  slug: shortcut-software
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1581,9 +1526,9 @@ companies:
   stage: seed
   status: acquired
   source: https://greylock.com/portfolio/
-  slug: sumologic
+  slug: sensu
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: SuperMe
   url: https://superme.ai/
@@ -1596,17 +1541,6 @@ companies:
   is_api_provider: false
   slug: superme
   matched_by: domain
-- name: TellApart
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
-  description: Predictive customer analytics.
-  sector: applications
-  stage: seed
-  status: acquired
-  source: https://greylock.com/portfolio/
-  in_network: true
-  is_api_provider: false
-  slug: tellapart
-  matched_by: name-slug
 - name: Tenzai
   url: https://www.tenzai.com/
   description: AI hackers that actively hack, exploit, and fix hardest-to-find vulnerabilities.
@@ -1757,10 +1691,10 @@ companies:
   stage: series-a
   status: acquired
   source: https://greylock.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: xapo
-  matched_by: name-slug
+  x-name-collision: xapo
+  suggested_slug: xapo-com
 - name: Zuora
   url: https://www.zuora.com/
   description: On-demand subscription commerce and billing solutions.

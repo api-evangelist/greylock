@@ -1,4 +1,46 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: greylock
-leads: []
+leads:
+- name: Cleo
+  url: https://hicleo.com/
+  suggested_slug: hicleo-com
+  sector: applications
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
+- name: Coffee
+  url: https://www.coffee.ai/
+  suggested_slug: coffee-ai
+  sector: applications
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
+- name: Delphix
+  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
+  suggested_slug: altareturn-com
+  sector: infrastructure
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
+- name: Handshake
+  url: https://handshake.org/
+  suggested_slug: handshake-org
+  sector: consumer
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
+- name: Mammoth Media
+  url: http://mammoth.la
+  suggested_slug: mammoth-la
+  sector: consumer
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
+- name: Xapo
+  url: https://www.xapo.com/
+  suggested_slug: xapo-com
+  sector: fintech
+  source_vc: greylock
+  source: https://greylock.com/portfolio/
+  stub_created: false
